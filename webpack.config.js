@@ -42,4 +42,7 @@ module.exports = {
     publicPath: "/dist/",
     filename: "bundle.js",
   },
+  devServer: {
+    historyApiFallback: true,
+  },
 };
